@@ -140,9 +140,19 @@ function extractSignatures(msg) {
     bodyText = (msg.content || msg.fullText || '').trim();
   }
 
-  const lines = bodyText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  // 1. Supprimer le tag technique de Discord
+  let cleanText = bodyText.replace(/Annonce d'entreprise.*$/i, '').trim();
+
+  // 2. Supprimer les phrases de convocation ou d'appel (la personne appelée n'est PAS le signataire)
+  // Ex: "Monsieur Jack Smith est demandé à l'Ombrelune. T.V." -> ". T.V."
+  // Ex: "Blake Hope et Aurélius Cavendish sont demandés à l'Ombrelune ! T.V." -> "! T.V."
+  // Ex: "Mme Aileen Crane est demandée au contresort si disponible -- Jack Smith --" -> "-- Jack Smith --"
+  cleanText = cleanText.replace(/(?:^|[.!?\n\r])\s*[^.!?\n\r]*?\b(?:est|sont)\s+(?:demand[eé][es]?|convoqu[eé][es]?|attendu[es]?)[^.!?\n\r]*?(?=(?:--|\s-[A-Za-zÀ-ÿ\s]|\s~|[.!?\n\r]|$))/gi, ' ');
+  cleanText = cleanText.replace(/(?:^|[.!?\n\r])\s*[^.!?\n\r]*?\b(?:veuillez vous presenter|est prie d'ouvrir)[^.!?\n\r]*?(?=(?:--|\s-[A-Za-zÀ-ÿ\s]|\s~|[.!?\n\r]|$))/gi, ' ');
+
+  const lines = cleanText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
   const lastLine = lines.length > 0 ? lines[lines.length - 1] : '';
-  const tailText = bodyText.slice(-90);
+  const tailText = lastLine.length <= 60 ? lastLine : cleanText.slice(-60);
 
   const found = new Set();
 
@@ -157,7 +167,7 @@ function extractSignatures(msg) {
   const firstPlusInit = /(?:^|[^A-Za-zÀ-ÿ])([A-ZÀ-Ý][a-zà-ÿ]{2,15})(?:\s*\.\s*|\s+)([A-Z])\.?(?=$|[^A-Za-zÀ-ÿ])/g;
   while ((match = firstPlusInit.exec(tailText)) !== null) {
     const word = match[1].toLowerCase();
-    if (!['monsieur', 'madame', 'mademoiselle', 'bonsoir', 'bonjour', 'prochaine', 'merci', 'ouverte', 'portes'].includes(word)) {
+    if (!['monsieur', 'madame', 'mademoiselle', 'bonsoir', 'bonjour', 'prochaine', 'merci', 'ouverte', 'portes', 'annonce', 'entreprise', 'livraison', 'village'].includes(word)) {
       found.add(`${match[1][0].toUpperCase()}.${match[2].toUpperCase()}`);
     }
   }
@@ -175,7 +185,7 @@ function extractSignatures(msg) {
   if (/daesya\s+sangvyr/i.test(lastLine)) found.add('D.S');
   if (/thalea\s+azharys|thaléa\s+azharys/i.test(lastLine)) found.add('T.A');
   if (/gary\s+myria/i.test(lastLine)) found.add('G.M');
-  if (/jack\s+smith/i.test(lastLine)) found.add('J.S');
+  if (/(?:^|[^\w])jack\s+smith(?:$|[^\w])/i.test(lastLine)) found.add('J.S');
 
   return found.size > 0 ? Array.from(found) : ['Non signé'];
 }
