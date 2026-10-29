@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ombrelune — Analyseur de Temps d'Ouverture</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- HEADER -->
+    <header class="top-header">
+      <div class="brand">
+        <div class="brand-icon">🌙</div>
+        <div>
+          <h1>Ombrelune <span class="badge-accent">Stats d'Ouverture</span></h1>
+          <p class="subtitle">Calculateur & comparateur automatique des horaires d'ouverture Discord</p>
+        </div>
+      </div>
+      <div class="header-actions" id="adminHeaderActions">
+        <button id="btnPublishOnline" class="btn btn-accent">
+          🌐 Publier en ligne
+        </button>
+        <button id="btnToggleConfig" class="btn btn-secondary">
+          ⚙️ Configuration <span id="channelStatusPill" class="status-pill status-warn">Non configuré</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- BANDEAU MODE LECTURE EN LIGNE (masqué en local) -->
+    <div id="publicRangeBanner" class="notice-banner hidden"></div>
+
+    <!-- PANNEAU DE PUBLICATION GITHUB PAGES (masqué par défaut) -->
+    <div id="publishStatusBox" class="card publish-box hidden"></div>
+
+    <!-- CONFIGURATION PANEL (COLLAPSIBLE) -->
+    <section id="configPanel" class="card config-card">
+      <div class="card-header">
+        <h2>⚙️ Configuration Discord & Règles de Calcul</h2>
+        <button id="btnToggleHelp" class="btn btn-ghost btn-sm">❓ Comment trouver mon Token et le lien du salon ?</button>
+      </div>
+
+      <!-- HELP BOX -->
+      <div id="helpBox" class="help-box hidden">
+        <div class="help-grid">
+          <div>
+            <h4>1️⃣ Lien ou ID du salon Discord</h4>
+            <p>Dans Discord, fais un <strong>Clic droit sur le salon d'annonces</strong> puis clique sur <strong>« Copier le lien »</strong> (ou copie directement l'adresse `https://discord.com/channels/.../...` depuis ton navigateur) et colle-la ci-dessous.</p>
+          </div>
+          <div>
+            <h4>2️⃣ Récupérer ton Token Discord (en 10 secondes)</h4>
+            <ol>
+              <li>Ouvre Discord dans ton navigateur (ou fais <code>Ctrl+Shift+I</code> sur l'application Discord PC).</li>
+              <li>Va dans l'onglet <strong>Réseau (Network)</strong> en haut des outils de développement.</li>
+              <li>Tape <code>/api</code> dans le petit filtre, puis clique sur n'importe quel salon dans Discord.</li>
+              <li>Clique sur une ligne (ex: <code>messages</code> ou <code>science</code>), descends dans <strong>En-têtes de requête (Request Headers)</strong> et copie la valeur de <strong><code>authorization</code></strong>.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="channelInput">Lien du salon Discord (ou ID du salon)</label>
+          <input type="text" id="channelInput" placeholder="Ex: https://discord.com/channels/123456789/987654321" />
+          <small class="hint" id="resolvedChannelHint">Colle le lien complet du salon pour remplir automatiquement Serveur + Salon.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="tokenInput">Token du compte Discord</label>
+          <div class="input-with-btn">
+            <input type="password" id="tokenInput" placeholder="Colle ton token Discord ici..." autocomplete="off" />
+            <button type="button" id="btnToggleToken" class="btn btn-ghost" title="Afficher/Masquer">👁️</button>
+          </div>
+          <small class="hint">Stocké uniquement sur ton PC dans le dossier local <code>data/config.json</code>.</small>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="form-group" style="margin-bottom: 16px;">
+        <label for="allowedCompanies">🏢 Entreprises conservées (séparées par <code>|</code>)</label>
+        <input type="text" id="allowedCompanies" value="Ombrelune | Forge Ostankia | Le Contresort | Providis | Clauser | Banque | Arkana TCG | Cabinet Floravet" />
+        <small class="hint">Toutes les autres annonces (Ministère, Garde du Haut Conseil, Médecine, Mairie, Plume du Phénix, Météo Plume, Offre Flash, Rachat Express, événements...) sont automatiquement exclues.</small>
+      </div>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="openKeyword">Phrases d'OUVERTURE certaines (sans IA)</label>
+          <input type="text" id="openKeyword" value="Ombrelune ouvre ses porte" />
+          <small class="hint">Plusieurs possibles, séparées par <code>|</code>. Insensible aux majuscules et accents. Les annonces qui ne correspondent à aucune phrase sont classées par l'IA.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="closeKeyword">Phrases de FERMETURE certaines (sans IA)</label>
+          <input type="text" id="closeKeyword" value="Ombrelune se referment" />
+          <small class="hint">Même principe. Ex : <code>Ombrelune se referment | Les portes ferment</code></small>
+        </div>
+      </div>
+
+      <div class="form-grid four-cols">
+        <div class="form-group">
+          <label for="forfaitMinutes">Forfait si oubli de fermeture (min)</label>
+          <input type="number" id="forfaitMinutes" value="30" min="0" max="480" />
+          <small class="hint">Défaut : <strong>30 minutes</strong></small>
+        </div>
+
+        <div class="form-group">
+          <label for="maxSessionHours">Durée max d'une session (heures)</label>
+          <input type="number" id="maxSessionHours" value="8" min="1" max="48" step="0.5" />
+          <small class="hint">Au-delà, considéré comme oubli $\rightarrow$ forfait</small>
+        </div>
+
+        <div class="form-group">
+          <label for="dedupMinutes">Anti-doublon (minutes)</label>
+          <input type="number" id="dedupMinutes" value="2" min="0" max="30" />
+          <small class="hint">Ignore 2 annonces identiques en &lt; 2 min</small>
+        </div>
+
+        <div class="form-group">
+          <label for="aiConfidencePct">Seuil de certitude IA (%)</label>
+          <input type="number" id="aiConfidencePct" value="90" min="50" max="100" />
+          <small class="hint">En dessous (ex: &lt; 90%), placé dans « ❓ À confirmer »</small>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="form-grid three-cols">
+        <div class="form-group">
+          <label for="geminiKey">Clé API Gemini (gratuite)</label>
+          <div class="input-with-btn">
+            <input type="password" id="geminiKey" placeholder="Clé créée sur aistudio.google.com" autocomplete="off" />
+            <button type="button" id="btnToggleGeminiKey" class="btn btn-ghost" title="Afficher/Masquer">👁️</button>
+          </div>
+          <small class="hint">Sert à classer les annonces sans phrase connue (ouverture / fermeture / préavis / autre). Stockée sur ton PC uniquement. Sans clé : ces annonces sont marquées « à confirmer ».</small>
+        </div>
+
+        <div class="form-group">
+          <label for="geminiModel">Modèle Gemini</label>
+          <input type="text" id="geminiModel" value="gemini-3.5-flash-lite" />
+          <small class="hint">Défaut : <code>gemini-3.5-flash-lite</code> (ou <code>gemini-flash-lite-latest</code>).</small>
+        </div>
+
+        <div class="form-group">
+          <label>&nbsp;</label>
+          <button type="button" id="btnTestGemini" class="btn btn-secondary">🤖 Tester la clé Gemini</button>
+          <small class="hint" id="geminiTestResult"></small>
+        </div>
+      </div>
+
+      <div class="config-footer">
+        <label class="checkbox-label">
+          <input type="checkbox" id="countOrphanCloseAsForfait" />
+          <span>Compter aussi un forfait (30 min) si une fermeture est trouvée sans ouverture avant (oubli d'ouverture)</span>
+        </label>
+
+        <div class="btn-group">
+          <button type="button" id="btnTestConnection" class="btn btn-secondary">🔍 Tester & Voir les derniers embeds</button>
+          <button type="button" id="btnSaveConfig" class="btn btn-primary">💾 Enregistrer la configuration</button>
+        </div>
+      </div>
+
+      <!-- PREVIEW TEST RESULTS -->
+      <div id="testPreviewBox" class="preview-box hidden"></div>
+    </section>
+
+    <!-- PERIOD SELECTOR CARD -->
+    <section class="card periods-card">
+      <div class="card-header">
+        <div>
+          <h2>📅 Sélection des Périodes à Analyser</h2>
+          <p class="card-desc">Les sessions ouvertes avant minuit et fermées le lendemain sont automatiquement associées.</p>
+        </div>
+        <div class="preset-buttons">
+          <span class="preset-label">Raccourcis :</span>
+          <button type="button" class="btn btn-ghost btn-sm" data-preset="this_vs_last_week">Cette semaine vs Semaine dernière</button>
+          <button type="button" class="btn btn-ghost btn-sm" data-preset="7d">7 derniers jours vs 7j précédents</button>
+          <button type="button" class="btn btn-ghost btn-sm" data-preset="14d">14 derniers jours vs 14j précédents</button>
+          <button type="button" class="btn btn-ghost btn-sm" data-preset="this_vs_last_month">Ce mois vs Mois dernier</button>
+        </div>
+      </div>
+
+      <div class="company-bar">
+        <div class="form-group company-select-group">
+          <label for="companySelect">🏢 Entreprise analysée</label>
+          <select id="companySelect"></select>
+          <small class="hint" id="companyHint">Lance une analyse pour détecter les entreprises du salon (titre de l'embed).</small>
+        </div>
+      </div>
+
+      <div class="periods-grid">
+        <!-- PERIOD 1 -->
+        <div class="period-box period-1">
+          <div class="period-box-header">
+            <span class="period-badge badge-p1">Période 1 (Principale)</span>
+            <input type="text" id="p1Label" class="period-name-input" value="Période Actuelle" />
+          </div>
+          <div class="date-inputs">
+            <div class="form-group">
+              <label for="p1Start">Début (Date &amp; Heure)</label>
+              <div class="datetime-row">
+                <input type="date" id="p1Start" />
+                <input type="time" id="p1StartTime" value="15:00" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p1End">Fin (Date &amp; Heure)</label>
+              <div class="datetime-row">
+                <input type="date" id="p1End" />
+                <input type="time" id="p1EndTime" value="14:59" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PERIOD 2 -->
+        <div class="period-box period-2" id="period2Container">
+          <div class="period-box-header">
+            <label class="checkbox-label">
+              <input type="checkbox" id="p2Enabled" checked />
+              <span class="period-badge badge-p2">Période 2 (Comparaison)</span>
+            </label>
+            <input type="text" id="p2Label" class="period-name-input" value="Période Précédente" />
+          </div>
+          <div class="date-inputs" id="p2Inputs">
+            <div class="form-group">
+              <label for="p2Start">Début (Date &amp; Heure)</label>
+              <div class="datetime-row">
+                <input type="date" id="p2Start" />
+                <input type="time" id="p2StartTime" value="15:00" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p2End">Fin (Date &amp; Heure)</label>
+              <div class="datetime-row">
+                <input type="date" id="p2End" />
+                <input type="time" id="p2EndTime" value="14:59" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="analyze-bar" id="analyzeBar">
+        <div class="analyze-options" id="localCacheOptions">
+          <label class="checkbox-label">
+            <input type="checkbox" id="useCacheCheckbox" checked />
+            <span>Utiliser le cache local si la période a déjà été récupérée (évite de ré-interroger Discord)</span>
+          </label>
+          <button type="button" id="btnClearCache" class="btn btn-ghost btn-sm" title="Supprimer les messages en cache">🗑️ Vider le cache</button>
+        </div>
+
+        <button type="button" id="btnAnalyze" class="btn btn-accent btn-lg">
+          🚀 Lancer l'analyse des horaires
+        </button>
+      </div>
+
+      <!-- PROGRESS BAR -->
+      <div id="progressContainer" class="progress-container hidden">
+        <div class="progress-info">
+          <span id="progressText">Initialisation...</span>
+          <span id="progressPercent">0%</span>
+        </div>
+        <div class="progress-track">
+          <div id="progressBar" class="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div id="errorBanner" class="error-banner hidden"></div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+    <main id="resultsSection" class="results-section hidden">
+      <div id="aiNotice" class="notice-banner hidden"></div>
+
+      <!-- COMPANIES COMPARISON -->
+      <section class="card companies-card">
+        <div class="card-header">
+          <div>
+            <h2>🏢 Comparatif entre Entreprises</h2>
+            <p class="card-desc">Toutes les entreprises détectées dans le salon, sur la période choisie. Complète les analyses ci-dessous (qui portent sur l'entreprise sélectionnée).</p>
+          </div>
+          <div class="tabs-bar">
+            <button type="button" class="tab-btn active" data-comp-tab="p1" id="compTabP1">Période 1</button>
+            <button type="button" class="tab-btn" data-comp-tab="p2" id="compTabP2">Période 2</button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="companiesTable">
+            <thead id="companiesTableHead"></thead>
+            <tbody id="companiesTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- KPI SUMMARY CARDS -->
+      <div class="kpi-grid">
+        <div class="card kpi-card">
+          <div class="kpi-title">⏱️ Temps Total d'Ouverture</div>
+          <div class="kpi-main" id="kpiTotalP1">0h 00m</div>
+          <div class="kpi-compare" id="kpiTotalCompare"></div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="kpi-title">📆 Moyenne par Jour</div>
+          <div class="kpi-main" id="kpiAvgDayP1">0h 00m / j</div>
+          <div class="kpi-compare" id="kpiAvgDayCompare"></div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="kpi-title">🚪 Nombre d'Ouvertures</div>
+          <div class="kpi-main" id="kpiCountP1">0 sessions</div>
+          <div class="kpi-compare" id="kpiCountCompare"></div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="kpi-title">⚠️ Oublis de Fermeture (Forfait)</div>
+          <div class="kpi-main" id="kpiForfaitP1">0 oubli</div>
+          <div class="kpi-compare" id="kpiForfaitCompare"></div>
+        </div>
+      </div>
+
+      <!-- COMPARISON TABLE OVERVIEW -->
+      <section class="card comparison-card" id="comparisonTableCard">
+        <div class="card-header">
+          <h2>📊 Tableau Comparatif Synthétique</h2>
+          <button type="button" id="btnExportCsv" class="btn btn-secondary btn-sm">📥 Exporter en CSV (Excel)</button>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Indicateur</th>
+                <th id="thP1Name">Période 1</th>
+                <th id="thP2Name">Période 2</th>
+                <th id="thDiff">Évolution / Différence</th>
+              </tr>
+            </thead>
+            <tbody id="comparisonTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- EMPLOYEE / SIGNATURES BREAKDOWN -->
+      <section class="card employees-card">
+        <div class="card-header">
+          <div>
+            <h2>👥 Statistiques par Employé (Signatures / Initiales)</h2>
+            <p class="card-desc">
+              Détail des annonces signées (ouvertures, fermetures, relances/permis) et participation aux services. En cas de relais ou duo, les deux personnes sont créditées d'une participation (et 50/50 sur le temps partagé).
+            </p>
+          </div>
+          <div class="tabs-bar">
+            <button type="button" class="tab-btn active" data-emp-tab="p1" id="empTabP1">Période 1</button>
+            <button type="button" class="tab-btn" data-emp-tab="p2" id="empTabP2">Période 2</button>
+            <button type="button" class="tab-btn" data-emp-tab="compare" id="empTabCompare">⚡ Comparatif P1 vs P2</button>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table" id="employeesTable">
+            <thead id="employeesTableHead"></thead>
+            <tbody id="employeesTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- DAILY BREAKDOWN CHARTS -->
+      <section class="card chart-card">
+        <div class="card-header">
+          <h2>📈 Répartition Jour par Jour</h2>
+          <div class="legend">
+            <span class="legend-item"><span class="dot dot-normal"></span> Durée normale</span>
+            <span class="legend-item"><span class="dot dot-forfait"></span> Forfait oubli (30m)</span>
+          </div>
+        </div>
+        <div class="charts-dual" id="dailyChartsContainer">
+          <div class="chart-column">
+            <h3 id="chartTitleP1">Période 1</h3>
+            <div id="dailyBarsP1" class="daily-bars"></div>
+          </div>
+          <div class="chart-column" id="chartColP2">
+            <h3 id="chartTitleP2">Période 2</h3>
+            <div id="dailyBarsP2" class="daily-bars"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DETAILED SESSIONS LIST -->
+      <section class="card sessions-card">
+        <div class="card-header">
+          <div class="tabs-bar">
+            <button type="button" class="tab-btn active" data-period-tab="p1" id="tabBtnP1">Détail Période 1</button>
+            <button type="button" class="tab-btn" data-period-tab="p2" id="tabBtnP2">Détail Période 2</button>
+          </div>
+
+          <div class="filter-pills">
+            <button type="button" class="pill-btn active" data-filter="all">Toutes les sessions</button>
+            <button type="button" class="pill-btn" data-filter="normal">✅ Normales</button>
+            <button type="button" class="pill-btn" data-filter="forfait">⚠️ Oublis / Forfaits</button>
+            <button type="button" class="pill-btn" data-filter="ignored">🔍 Autres annonces</button>
+            <button type="button" class="pill-btn" data-filter="uncertain" id="pillUncertain">❓ À confirmer</button>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table sessions-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Ouverture</th>
+                <th>Fermeture</th>
+                <th>Signature(s)</th>
+                <th>Durée retenue</th>
+                <th>Statut</th>
+                <th>Détail des messages (Embeds)</th>
+              </tr>
+            </thead>
+            <tbody id="sessionsTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
