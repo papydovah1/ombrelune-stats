@@ -169,6 +169,7 @@ input[type="text"],
 input[type="password"],
 input[type="number"],
 input[type="date"],
+input[type="time"],
 select {
   background: var(--bg-input);
   border: 1px solid var(--border);
@@ -179,6 +180,20 @@ select {
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
   width: 100%;
+  color-scheme: dark;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.85);
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover,
+input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
 }
 
 input:focus,
