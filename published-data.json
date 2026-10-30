@@ -1,10 +1,10 @@
 {
-  "publishedAt": "2026-10-29T03:16:28.596Z",
+  "publishedAt": "2026-10-30T02:00:23.013Z",
   "minTimestampMs": 1789828546947,
-  "maxTimestampMs": 1793150059578,
-  "totalMessages": 1869,
+  "maxTimestampMs": 1793322602929,
+  "totalMessages": 1935,
   "rules": {
-    "company": "clauser",
+    "company": "ombrelune",
     "allowedCompanies": "Ombrelune | Forge Ostankia | Le Contresort | Providis | Clauser | Banque | Arkana TCG | Cabinet Floravet | Hotel L'Obscurial",
     "aiConfidencePct": 95,
     "openKeyword": "Ombrelune ouvre ses porte",
@@ -39087,6 +39087,1390 @@
       "fullText": "Arkana TCG \n MWA VOUS LOIR AITRE JANTIL TEM PI POUR VU. CHEF CHEF \n Annonce d'entreprise",
       "companyKey": "arkana tcg",
       "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565403698123907153",
+      "timestamp": "2026-10-29T16:35:25.427000+00:00",
+      "timestampMs": 1793291725427,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Mr Smith --",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Mr Smith -- \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565409706262925403",
+      "timestamp": "2026-10-29T16:59:17.879000+00:00",
+      "timestampMs": 1793293157879,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Mr Smith --",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Mr Smith -- \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "WARN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565411333862596759",
+      "timestamp": "2026-10-29T17:05:45.929000+00:00",
+      "timestampMs": 1793293545929,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Mr Smith --",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Mr Smith -- \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565419365879386144",
+      "timestamp": "2026-10-29T17:37:40.911000+00:00",
+      "timestampMs": 1793295460911,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1565419694318428250",
+      "timestamp": "2026-10-29T17:38:59.217000+00:00",
+      "timestampMs": 1793295539217,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! 🔥\n— Elena C.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! 🔥\n— Elena C.N \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565423629049532437",
+      "timestamp": "2026-10-29T17:54:37.330000+00:00",
+      "timestampMs": 1793296477330,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V. \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565427792148041810",
+      "timestamp": "2026-10-29T18:11:09.890000+00:00",
+      "timestampMs": 1793297469890,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Petit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n- E.C.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Petit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n- E.C.N \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565429255465341121",
+      "timestamp": "2026-10-29T18:16:58.772000+00:00",
+      "timestampMs": 1793297818772,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune vont bientôt se refermer… ✨\nIl vous reste quelques minutes pour venir acheter vos lettres et boombox, ou découvrir nos autres articles !\nX.M , A.C , E.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune vont bientôt se refermer… ✨\nIl vous reste quelques minutes pour venir acheter vos lettres et boombox, ou découvrir nos autres articles !\nX.M , A.C , E.M \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565431147201175663",
+      "timestamp": "2026-10-29T18:24:29.797000+00:00",
+      "timestampMs": 1793298269797,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\nX.M , A.C , E.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\nX.M , A.C , E.M \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1565434714599198801",
+      "timestamp": "2026-10-29T18:38:40.331000+00:00",
+      "timestampMs": 1793299120331,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V. \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565435337541554177",
+      "timestamp": "2026-10-29T18:41:08.852000+00:00",
+      "timestampMs": 1793299268852,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! \nPetit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! \nPetit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565436754113208472",
+      "timestamp": "2026-10-29T18:46:46.589000+00:00",
+      "timestampMs": 1793299606589,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nPour le moment seul les cercle 4 & 5 peuvent venir pour échanger et par la suite tout les cercle !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nViktor. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nPour le moment seul les cercle 4 & 5 peuvent venir pour échanger et par la suite tout les cercle !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nViktor. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565438198119661692",
+      "timestamp": "2026-10-29T18:52:30.867000+00:00",
+      "timestampMs": 1793299950867,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nTout les cercles peuvent venir !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nAedan. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nTout les cercles peuvent venir !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nAedan. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565441328563879988",
+      "timestamp": "2026-10-29T19:04:57.223000+00:00",
+      "timestampMs": 1793300697223,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥 Gary Myria",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥 Gary Myria \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565441783616372846",
+      "timestamp": "2026-10-29T19:06:45.716000+00:00",
+      "timestampMs": 1793300805716,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Avis au Citoyen \n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) ! \nVeulliez envoyer un Hiboux au 99170 \n\nCordialement\nLa Direction de Providis",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Avis au Citoyen \n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) ! \nVeulliez envoyer un Hiboux au 99170 \n\nCordialement\nLa Direction de Providis \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565442063561007315",
+      "timestamp": "2026-10-29T19:07:52.460000+00:00",
+      "timestampMs": 1793300872460,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières.\n\nE.L.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières.\n\nE.L. \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565442213104853043",
+      "timestamp": "2026-10-29T19:08:28.114000+00:00",
+      "timestampMs": 1793300908114,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Rectification\nAvis au Citoyen\n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) !\nVeulliez envoyer un Hiboux au 17797 ! \n\nCordialement\nLa Direction de Providis",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Rectification\nAvis au Citoyen\n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) !\nVeulliez envoyer un Hiboux au 17797 ! \n\nCordialement\nLa Direction de Providis \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565443834966704290",
+      "timestamp": "2026-10-29T19:14:54.796000+00:00",
+      "timestampMs": 1793301294796,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nLeander & Viktor. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nLeander & Viktor. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565447687271350484",
+      "timestamp": "2026-10-29T19:30:13.257000+00:00",
+      "timestampMs": 1793302213257,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nLeander & Viktor. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nLeander & Viktor. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565448856567554230",
+      "timestamp": "2026-10-29T19:34:52.039000+00:00",
+      "timestampMs": 1793302492039,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nZ.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nZ.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565456070657442043",
+      "timestamp": "2026-10-29T20:03:32.012000+00:00",
+      "timestampMs": 1793304212012,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "Kleodor est demandé début de journée en Botanique si disponible.\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n Kleodor est demandé début de journée en Botanique si disponible.\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565456915893330041",
+      "timestamp": "2026-10-29T20:06:53.532000+00:00",
+      "timestampMs": 1793304413532,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565457056037740697",
+      "timestamp": "2026-10-29T20:07:26.945000+00:00",
+      "timestampMs": 1793304446945,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565466493859143802",
+      "timestamp": "2026-10-29T20:44:57.097000+00:00",
+      "timestampMs": 1793306697097,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ E / L-B\"",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ E / L-B\" \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565473456500252682",
+      "timestamp": "2026-10-29T21:12:37.120000+00:00",
+      "timestampMs": 1793308357120,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial est toujours ouvert.\n⏳ Profitez dès maintenant de nos services et de notre atmosphère singulière avant qu’il ne soit trop tard… ✒️ E / L-B\"",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial est toujours ouvert.\n⏳ Profitez dès maintenant de nos services et de notre atmosphère singulière avant qu’il ne soit trop tard… ✒️ E / L-B\" \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565474816893395065",
+      "timestamp": "2026-10-29T21:18:01.463000+00:00",
+      "timestampMs": 1793308681463,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Avis au Citoyen\n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) !\nVeulliez envoyer un Hiboux au 17797 ou au 99170 !\n\nCordialement\nLa Direction de Providis",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Avis au Citoyen\n\nLes recrutement au sein de Providis sont ouvert ( 4 poste sont à pourvoir ) !\nVeulliez envoyer un Hiboux au 17797 ou au 99170 !\n\nCordialement\nLa Direction de Providis \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565474971327660209",
+      "timestamp": "2026-10-29T21:18:38.283000+00:00",
+      "timestampMs": 1793308718283,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565475608199168060",
+      "timestamp": "2026-10-29T21:21:10.125000+00:00",
+      "timestampMs": 1793308870125,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565484029254570049",
+      "timestamp": "2026-10-29T21:54:37.861000+00:00",
+      "timestampMs": 1793310877861,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ E / L-B\"",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ E / L-B\" \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1565486362344562899",
+      "timestamp": "2026-10-29T22:03:54.113000+00:00",
+      "timestampMs": 1793311434113,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🌕 Les créatures de la nuit sont de sortie et les mystères s'éveillent. Que vous soyez en quête de compagnie, de sécurité ou d'un bon repas, le Contresort vous réserve une halte bien à l'abri. ✨🍲 - S.D-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🌕 Les créatures de la nuit sont de sortie et les mystères s'éveillent. Que vous soyez en quête de compagnie, de sécurité ou d'un bon repas, le Contresort vous réserve une halte bien à l'abri. ✨🍲 - S.D- \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1565486790926672047",
+      "timestamp": "2026-10-29T22:05:36.295000+00:00",
+      "timestampMs": 1793311536295,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Arkana TCG ouvrira ses portes pour vous accueillir durant la pleine lune Si vous cherchez un endroit où vous réfugier et passer ce moment en sécurité, n’hésitez pas à venir chez nous.\n\nVous êtes les bienvenus.\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Arkana TCG ouvrira ses portes pour vous accueillir durant la pleine lune Si vous cherchez un endroit où vous réfugier et passer ce moment en sécurité, n’hésitez pas à venir chez nous.\n\nVous êtes les bienvenus.\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565486837433237609",
+      "timestamp": "2026-10-29T22:05:47.383000+00:00",
+      "timestampMs": 1793311547383,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial est toujours ouvert.\n⏳ Profitez dès maintenant de nos services et de notre atmosphère singulière avant qu’il ne soit trop tard… ✒️ E / L-B\"",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial est toujours ouvert.\n⏳ Profitez dès maintenant de nos services et de notre atmosphère singulière avant qu’il ne soit trop tard… ✒️ E / L-B\" \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565488975198552214",
+      "timestamp": "2026-10-29T22:14:17.066000+00:00",
+      "timestampMs": 1793312057066,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "La Boutique fait peau neuve venez decouvrir !\n\nArkana TCG vous accueille ce soir ! Si vous cherchez un endroit où vous réfugier et passer la pleine lune en sécurité, n’hésitez pas à pousser nos portes.\n\n\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n La Boutique fait peau neuve venez decouvrir !\n\nArkana TCG vous accueille ce soir ! Si vous cherchez un endroit où vous réfugier et passer la pleine lune en sécurité, n’hésitez pas à pousser nos portes.\n\n\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.85
+    },
+    {
+      "id": "1565491830504558703",
+      "timestamp": "2026-10-29T22:25:37.824000+00:00",
+      "timestampMs": 1793312737824,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565492160076320769",
+      "timestamp": "2026-10-29T22:26:56.400000+00:00",
+      "timestampMs": 1793312816400,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V. \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565495517935312987",
+      "timestamp": "2026-10-29T22:40:16.976000+00:00",
+      "timestampMs": 1793313616976,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙 -S.D-🔒",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙 -S.D-🔒 \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565496681062207501",
+      "timestamp": "2026-10-29T22:44:54.287000+00:00",
+      "timestampMs": 1793313894287,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Les fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n—Blake Hope  ♡",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Les fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n—Blake Hope  ♡ \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565497382647627890",
+      "timestamp": "2026-10-29T22:47:41.558000+00:00",
+      "timestampMs": 1793314061558,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Petit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Petit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565498089001852969",
+      "timestamp": "2026-10-29T22:50:29.966000+00:00",
+      "timestampMs": 1793314229966,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1565498374403264572",
+      "timestamp": "2026-10-29T22:51:38.011000+00:00",
+      "timestampMs": 1793314298011,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "ARKANA TCG FAIT PEAU NEUVE !\n\nLa boutique continue de vous accueillir et vous invite à découvrir son tout nouveau décor !\n\nUn nouvel espace, mais toujours autant de cartes, de boosters et de surprises à découvrir !\n\nVenez nous rendre visite !\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n ARKANA TCG FAIT PEAU NEUVE !\n\nLa boutique continue de vous accueillir et vous invite à découvrir son tout nouveau décor !\n\nUn nouvel espace, mais toujours autant de cartes, de boosters et de surprises à découvrir !\n\nVenez nous rendre visite !\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565498400864993402",
+      "timestamp": "2026-10-29T22:51:44.320000+00:00",
+      "timestampMs": 1793314304320,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "La commande de Thaléa Azharys est prète à être retirée à la boutique \n\nT.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n La commande de Thaléa Azharys est prète à être retirée à la boutique \n\nT.V. \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565499368818217082",
+      "timestamp": "2026-10-29T22:55:35.098000+00:00",
+      "timestampMs": 1793314535098,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Petit Information :\n\nProvidis ce situe à gauche de botanique lorsque vous sortez et juste derriére la grande statue avec deux lotus ! \n\nArvin V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Petit Information :\n\nProvidis ce situe à gauche de botanique lorsque vous sortez et juste derriére la grande statue avec deux lotus ! \n\nArvin V. \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565499769932226632",
+      "timestamp": "2026-10-29T22:57:10.731000+00:00",
+      "timestampMs": 1793314630731,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir !\n\nArvin V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir !\n\nArvin V. \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565500021745385644",
+      "timestamp": "2026-10-29T22:58:10.768000+00:00",
+      "timestampMs": 1793314690768,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "Glenn Westminster, Elyas Carrow, Tibérus Banner, Uma Devancourt, Logan Blackthorn sont demandé à L'hotel si disponible. E / L-B",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n Glenn Westminster, Elyas Carrow, Tibérus Banner, Uma Devancourt, Logan Blackthorn sont demandé à L'hotel si disponible. E / L-B \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565502720457052211",
+      "timestamp": "2026-10-29T23:08:54.191000+00:00",
+      "timestampMs": 1793315334191,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565505319008993501",
+      "timestamp": "2026-10-29T23:19:13.734000+00:00",
+      "timestampMs": 1793315953734,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune vont bientôt se refermer… ✨\nIl ne vous reste que 5 minutes pour venir acheter vos lettres et boombox, ou découvrir nos autres articles !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune vont bientôt se refermer… ✨\nIl ne vous reste que 5 minutes pour venir acheter vos lettres et boombox, ou découvrir nos autres articles !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 1
+    },
+    {
+      "id": "1565507671107436605",
+      "timestamp": "2026-10-29T23:28:34.518000+00:00",
+      "timestampMs": 1793316514518,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1565507857233748090",
+      "timestamp": "2026-10-29T23:29:18.894000+00:00",
+      "timestampMs": 1793316558894,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 Providis est toujours ouvert ! N'hésitez pas à passer ! 📢\n \nPs : Providis ce situe à gauche de botanique lorsque vous sortez et juste derriére la grande statue avec deux lotus !\n\nArvin V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 Providis est toujours ouvert ! N'hésitez pas à passer ! 📢\n \nPs : Providis ce situe à gauche de botanique lorsque vous sortez et juste derriére la grande statue avec deux lotus !\n\nArvin V. \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565507989425623121",
+      "timestamp": "2026-10-29T23:29:50.411000+00:00",
+      "timestampMs": 1793316590411,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Les fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\nPetit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Les fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\nPetit Information :\n\nLa forge ce situe à gauche de botanique lorsque vous sortez.\n🔥 Gary . Myria \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565509993535504496",
+      "timestamp": "2026-10-29T23:37:48.228000+00:00",
+      "timestampMs": 1793317068228,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1565510746366812160",
+      "timestamp": "2026-10-29T23:40:47.717000+00:00",
+      "timestampMs": 1793317247717,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 Concours Providis x Ombrelune\nLes meilleurs récolteurs de bois ancestral ! jusqu'à la prochaine rentrée ! Vous avez tout le trimestre pour tenter de vous voir offrir une boite de 20KG ! Les 3 meilleurs récolteurs en recevront une !\nLe bois est à revendre à Providis ! ✨\nT.V. \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565511302883835905",
+      "timestamp": "2026-10-29T23:43:00.401000+00:00",
+      "timestampMs": 1793317380401,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥\n— Blake Hope ♡",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥\n— Blake Hope ♡ \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1565511883816046693",
+      "timestamp": "2026-10-29T23:45:18.906000+00:00",
+      "timestampMs": 1793317518906,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🔒 L’Hôtel l’Obscurial est temporairement fermé.\n🌙 Nous serons bientôt de retour pour vous accueillir à nouveau.\n✨ Merci pour votre patience et votre fidélité.\n✒️ S.D'G",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🔒 L’Hôtel l’Obscurial est temporairement fermé.\n🌙 Nous serons bientôt de retour pour vous accueillir à nouveau.\n✨ Merci pour votre patience et votre fidélité.\n✒️ S.D'G \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1565513474526683319",
+      "timestamp": "2026-10-29T23:51:38.161000+00:00",
+      "timestampMs": 1793317898161,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1565515776541331591",
+      "timestamp": "2026-10-30T00:00:47.004000+00:00",
+      "timestampMs": 1793318447004,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 PROVIDIS FERME SES PORTES ! 📢\n\nMerci à toutes et à tous d'être venus nous rendre visite aujourd'hui !\n\n📦 Providis est désormais fermé. Nous vous retrouverons très bientôt !   Morgana .DV",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 PROVIDIS FERME SES PORTES ! 📢\n\nMerci à toutes et à tous d'être venus nous rendre visite aujourd'hui !\n\n📦 Providis est désormais fermé. Nous vous retrouverons très bientôt !   Morgana .DV \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1565516189680144577",
+      "timestamp": "2026-10-30T00:02:25.504000+00:00",
+      "timestampMs": 1793318545504,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🏦✨ BANQUE DES ARCANES RECRUTE ! 🚨\n\nAdultes motivés uniquement !\n💼 Plusieurs postes à pourvoir + promotions possibles 📈\n🔥 Ambition de rester sur le long terme recherchée !\n\nAngel Horn : 31816 \nLeander Carter : 23382 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565520992351035533",
+      "timestamp": "2026-10-30T00:21:30.550000+00:00",
+      "timestampMs": 1793319690550,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Aeris Renilix et Adrian Valdor sont demandés à Providis, si disponible.   La Direction de Providis",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Aeris Renilix et Adrian Valdor sont demandés à Providis, si disponible.   La Direction de Providis \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565521103399555166",
+      "timestamp": "2026-10-30T00:21:57.026000+00:00",
+      "timestampMs": 1793319717026,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n ARKANA TCG RECRUTE !\n\nNous recherchons 1 étudiant minimum A2S2 pour rejoindre notre équipe !\n\nEnvoyez votre candidature par hibou au 61168 en précisant vos motivations.\n\nSmall Creatures • Big Dreams 🦎 \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565521311453941922",
+      "timestamp": "2026-10-30T00:22:46.630000+00:00",
+      "timestampMs": 1793319766630,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌿 Une potion à récupérer ? Un ingrédient à trouver ? Ou simplement besoin d’un conseil ?\n\nLes portes du Claus’Er vous sont ouvertes. ⚜️\nZ.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌿 Une potion à récupérer ? Un ingrédient à trouver ? Ou simplement besoin d’un conseil ?\n\nLes portes du Claus’Er vous sont ouvertes. ⚜️\nZ.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565521747556573266",
+      "timestamp": "2026-10-30T00:24:30.605000+00:00",
+      "timestampMs": 1793319870605,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nZ.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nZ.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1565522698560606320",
+      "timestamp": "2026-10-30T00:28:17.342000+00:00",
+      "timestampMs": 1793320097342,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌿 Une potion à récupérer ? Un ingrédient à trouver ? Ou simplement besoin d’un conseil ?\n\nLes portes du Claus’Er vous sont ouvertes. ⚜️\nZ.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌿 Une potion à récupérer ? Un ingrédient à trouver ? Ou simplement besoin d’un conseil ?\n\nLes portes du Claus’Er vous sont ouvertes. ⚜️\nZ.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1565523131710443544",
+      "timestamp": "2026-10-30T00:30:00.613000+00:00",
+      "timestampMs": 1793320200613,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "Vos commandes sont prêtes et vous attendent au Claus’Er. 🌿\n\n⚜️Kaelan Azhary , Minjae Minjun, Minjae Minjun \n\nPensez à venir récupérer vos commandes au Claus’Er. 📦🌿\nZ.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n Vos commandes sont prêtes et vous attendent au Claus’Er. 🌿\n\n⚜️Kaelan Azhary , Minjae Minjun, Minjae Minjun \n\nPensez à venir récupérer vos commandes au Claus’Er. 📦🌿\nZ.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565525549198213242",
+      "timestamp": "2026-10-30T00:39:36.987000+00:00",
+      "timestampMs": 1793320776987,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\nLes fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n— Lian rei",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\nLes fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n— Lian rei \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1565528894528954419",
+      "timestamp": "2026-10-30T00:52:54.576000+00:00",
+      "timestampMs": 1793321574576,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "Neyrissa Smith est Convoqué au Contresort \n\n-- Mr Smith --",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n Neyrissa Smith est Convoqué au Contresort \n\n-- Mr Smith -- \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565530412627919019",
+      "timestamp": "2026-10-30T00:58:56.519000+00:00",
+      "timestampMs": 1793321936519,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n— Lian  rei",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\nLes fourneaux sont éveillés et les runes vibrent de puissance, la Forge Ostenkia est encore ouverte ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\n— Lian  rei \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 1
+    },
+    {
+      "id": "1565533207753924739",
+      "timestamp": "2026-10-30T01:10:02.929000+00:00",
+      "timestampMs": 1793322602929,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "La commande la Forge est prête à être récupérée. Merci.\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n La commande la Forge est prête à être récupérée. Merci.\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
       "allowedCompany": true,
       "aiType": "OTHER",
       "aiConf": 1
