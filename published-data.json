@@ -1,10 +1,10 @@
 {
-  "publishedAt": "2026-10-31T03:06:32.328Z",
+  "publishedAt": "2026-10-31T03:07:45.710Z",
   "minTimestampMs": 1789828546947,
   "maxTimestampMs": 1793322602929,
   "totalMessages": 1935,
   "rules": {
-    "company": "ombrelune",
+    "company": "clauser",
     "allowedCompanies": "Ombrelune | Forge Ostankia | Le Contresort | Providis | Clauser | Banque | Arkana TCG | Cabinet Floravet | Hotel L'Obscurial",
     "aiConfidencePct": 95,
     "openKeyword": "Ombrelune ouvre ses porte",
@@ -40218,6 +40218,7 @@
       "companyKey": "hotel l'obscurial",
       "companyName": "Hotel L'Obscurial",
       "allowedCompany": true,
+      "forcedForfait": true,
       "aiType": "OPEN",
       "aiConf": 1
     },
@@ -40367,6 +40368,7 @@
       "companyName": "Clauser",
       "allowedCompany": true,
       "userType": "OPEN",
+      "forcedForfait": true,
       "aiType": "OPEN",
       "aiConf": 0.9
     },
@@ -40409,6 +40411,7 @@
       "companyKey": "forge ostankia",
       "companyName": "Forge Ostankia",
       "allowedCompany": true,
+      "forcedForfait": true,
       "aiType": "OPEN",
       "aiConf": 1
     },
