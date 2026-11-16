@@ -140,52 +140,116 @@ function extractSignatures(msg) {
     bodyText = (msg.content || msg.fullText || '').trim();
   }
 
-  // 1. Supprimer le tag technique de Discord
-  let cleanText = bodyText.replace(/Annonce d'entreprise.*$/i, '').trim();
+  // 1. Supprimer le tag technique de Discord et les shortcodes emoji (:dizzy:, etc.)
+  let cleanText = bodyText
+    .replace(/Annonce d'entreprise.*$/i, '')
+    .replace(/:[a-z0-9_]+:/gi, ' ')
+    .trim();
 
   // 2. Supprimer les phrases de convocation ou d'appel (la personne appelée n'est PAS le signataire)
   // Ex: "Monsieur Jack Smith est demandé à l'Ombrelune. T.V." -> ". T.V."
-  // Ex: "Blake Hope et Aurélius Cavendish sont demandés à l'Ombrelune ! T.V." -> "! T.V."
   // Ex: "Mme Aileen Crane est demandée au contresort si disponible -- Jack Smith --" -> "-- Jack Smith --"
-  cleanText = cleanText.replace(/(?:^|[.!?\n\r])\s*[^.!?\n\r]*?\b(?:est|sont)\s+(?:demand[eé][es]?|convoqu[eé][es]?|attendu[es]?)[^.!?\n\r]*?(?=(?:--|\s-[A-Za-zÀ-ÿ\s]|\s~|[.!?\n\r]|$))/gi, ' ');
+  cleanText = cleanText.replace(/(?:^|[.!?\n\r])\s*[^.!?\n\r]*?\b(?:est|sont)\s+(?:demand(?:[eé][es]?|er)|convoqu[eé][es]?|attendu[es]?)[^.!?\n\r]*?(?=(?:--|\s-[A-Za-zÀ-ÿ\s]|\s~|[.!?\n\r]|$))/gi, ' ');
   cleanText = cleanText.replace(/(?:^|[.!?\n\r])\s*[^.!?\n\r]*?\b(?:veuillez vous presenter|est prie d'ouvrir)[^.!?\n\r]*?(?=(?:--|\s-[A-Za-zÀ-ÿ\s]|\s~|[.!?\n\r]|$))/gi, ' ');
 
   const lines = cleanText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
   const lastLine = lines.length > 0 ? lines[lines.length - 1] : '';
-  const tailText = lastLine.length <= 60 ? lastLine : cleanText.slice(-60);
+  const tailText = lastLine.length <= 120 ? lastLine : cleanText.slice(-100);
+
+  // Nettoyer les emojis Unicode / symboles décoratifs pour faciliter la lecture
+  const cleanTail = tailText.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\uFE0F]/gu, ' ').replace(/\s+/g, ' ').trim();
 
   const found = new Set();
+  let remaining = cleanTail;
 
-  // 1. Initiales classiques (ex: "T.V.", "R.B", "-E.M.-", "🔥G.M", "🌸🐾D.F", "J-C")
-  const initRegex = /(?:^|[^A-Za-zÀ-ÿ])([A-Za-z])\s*[.\-]\s*([A-Za-z])\.?(?=$|[^A-Za-zÀ-ÿ])/g;
-  let match;
-  while ((match = initRegex.exec(tailText)) !== null) {
-    found.add(`${match[1].toUpperCase()}.${match[2].toUpperCase()}`);
-  }
+  // 1. Initiales classiques (ex: "T.V.", "L..C.", "R.B", "-E.M.-", "J-C")
+  const initRegex = /(?:^|[^A-Za-zÀ-ÿ])([A-Za-z])\s*[.\-]+\s*([A-Za-z])\.?(?=$|[^A-Za-zÀ-ÿ])/g;
+  remaining = remaining.replace(initRegex, (full, a, b) => {
+    found.add(`${a.toUpperCase()}.${b.toUpperCase()}`);
+    return ' ';
+  });
 
-  // 2. Prénom + Initiale (ex: "Veyra.C", "Zara.D", "Euphya P.", "Aslan B.", "Aster V.", "Monarko.L")
-  const firstPlusInit = /(?:^|[^A-Za-zÀ-ÿ])([A-ZÀ-Ý][a-zà-ÿ]{2,15})(?:\s*\.\s*|\s+)([A-Z])\.?(?=$|[^A-Za-zÀ-ÿ])/g;
-  while ((match = firstPlusInit.exec(tailText)) !== null) {
-    const word = match[1].toLowerCase();
-    if (!['monsieur', 'madame', 'mademoiselle', 'bonsoir', 'bonjour', 'prochaine', 'merci', 'ouverte', 'portes', 'annonce', 'entreprise', 'livraison', 'village'].includes(word)) {
-      found.add(`${match[1][0].toUpperCase()}.${match[2].toUpperCase()}`);
+  // 2. Initiales collées de 2 lettres majuscules isolées (ex: "TV.", "TV")
+  const compactInitRegex = /(?:^|[^A-Za-zÀ-ÿ])([A-Z]{2})\.?(?=$|[^A-Za-zÀ-ÿ])/g;
+  const ACRONYM_BLACKLIST = new Set(['RP', 'MP', 'OK', 'HR', 'QG', 'PV', 'PC', 'DJ', 'PM', 'AM', 'VS']);
+  remaining = remaining.replace(compactInitRegex, (full, pair) => {
+    if (!ACRONYM_BLACKLIST.has(pair)) {
+      found.add(`${pair[0]}.${pair[1]}`);
+      return ' ';
+    }
+    return full;
+  });
+
+  const STOPWORDS = new Set([
+    'monsieur', 'madame', 'mademoiselle', 'dame', 'mr', 'mme', 'mlle',
+    'bonsoir', 'bonjour', 'bonne', 'salut', 'coucou', 'merci', 'svp',
+    'spirituellement', 'cordialement', 'amicalement', 'chaleureusement', 'respectueusement',
+    'prochaine', 'ouverte', 'ouvert', 'ferme', 'fermee', 'portes', 'porte',
+    'annonce', 'entreprise', 'livraison', 'village', 'direction', 'co-direction',
+    'directeur', 'co-directeur', 'conseil', 'haut', 'maire', 'banque', 'arcanes',
+    'ombrelune', 'forge', 'ostankia', 'providis', 'clauser', 'contresort', 'arkana',
+    'cabinet', 'floravet', 'mairie', 'medecine', 'magique', 'astronesis',
+    'garde', 'equipe', 'boutique', 'disponible', 'indispo', 'indisponible',
+    'venez', 'bienvenue', 'soiree', 'nuit', 'journee', 'moment', 'tard',
+    'bientot', 'demain', 'aujourd', 'hui', 'chef', 'suite', 'nous', 'vous',
+    'pour', 'avec', 'sans', 'dans', 'sous', 'sur', 'de', 'du', 'des', 'le', 'la', 'les', 'un', 'une',
+    'est', 'sont', 'etre', 'avoir', 'faire', 'plus', 'moins', 'tout', 'tous', 'toute', 'toutes',
+    'encore', 'toujours', 'tickets', 'gratter', 'pieces', 'renouvellements', 'patience',
+    'zone', 'dangereuse', 'situation', 'comprehension', 'ordre', 'nouvel', 'attentif',
+    'profitez', 'avant', 'retrouverons', 'echanger', 'effectuer', 'tenter',
+    'chance', 'recuperer', 'oublie', 'boite', 'interieur', 'personne',
+    'demande', 'demandee', 'demandes', 'demander', 'convoque', 'attendu', 'depechez'
+  ]);
+
+  const normWord = (w) => w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^(?:l'|d')/i, '');
+
+  // 3. Prénom + Initiale (ex: "Veyra.C", "Aedan.H", "Owen S", "Nox W", "Uma D")
+  const firstPlusInit = /(?:^|[^A-Za-zÀ-ÿ])([A-ZÀ-Ý][a-zà-ÿ'-]{2,18})(?:\s*\.\s*|\s+)([A-Z])\.?(?=$|[^A-Za-zÀ-ÿ])/g;
+  remaining = remaining.replace(firstPlusInit, (full, first, init) => {
+    if (!STOPWORDS.has(normWord(first))) {
+      found.add(`${first[0].toUpperCase()}.${init.toUpperCase()}`);
+      return ' ';
+    }
+    return full;
+  });
+
+  // 4. Initiale + Nom (ex: "D.Valemor", "L.Carter")
+  const initPlusLast = /(?:^|[^A-Za-zÀ-ÿ])([A-Z])\s*\.\s*([A-ZÀ-Ý][a-zà-ÿ'-]{2,18})(?=$|[^A-Za-zÀ-ÿ])/g;
+  remaining = remaining.replace(initPlusLast, (full, init, last) => {
+    if (init.toUpperCase() !== 'M' && !STOPWORDS.has(normWord(last))) {
+      found.add(`${init.toUpperCase()}.${last[0].toUpperCase()}`);
+      return ' ';
+    }
+    return full;
+  });
+
+  // 5. Noms complets "Prénom Nom" (ex: "Owen Strawn", "Aedan Holloway", "Elianna Riven", "Theo Veyren")
+  const fullNameRegex = /(?:^|[^A-Za-zÀ-ÿ])([A-ZÀ-Ý][a-zà-ÿ'-]{1,18})\s+([A-ZÀ-Ý][a-zà-ÿ'-]{1,18})(?=$|[^A-Za-zÀ-ÿ])/g;
+  remaining = remaining.replace(fullNameRegex, (full, first, last) => {
+    if (!STOPWORDS.has(normWord(first)) && !STOPWORDS.has(normWord(last))) {
+      found.add(`${first[0].toUpperCase()}.${last[0].toUpperCase()}`);
+      return ' ';
+    }
+    return full;
+  });
+
+  // 6. Prénom(s) seul(s) en fin de phrase / dernière ligne (ex: "Tyler.", "Rhaëziel & Viktor", "raelyon", "UMA REALYON", "... - Kyara")
+  const segments = remaining.split(/(?:[!?\n\r—~]+|\s+-\s+)/).map((s) => s.trim()).filter(Boolean);
+  const lastSeg = segments.length > 0 ? segments[segments.length - 1] : '';
+  const cleanSeg = lastSeg.replace(/[\s.,;:/&+|()[\]\-]+/g, ' ').trim();
+  if (cleanSeg.length > 0 && cleanSeg.length <= 50) {
+    const tokens = cleanSeg.split(/\s+/).filter(Boolean);
+    const nonConj = tokens.filter((t) => !['et', 'and'].includes(normWord(t)));
+    const allLookLikeNames = nonConj.length > 0 && nonConj.length <= 3 && nonConj.every((t) => {
+      return /^[A-Za-zÀ-ÿ]{2,18}$/.test(t) && !STOPWORDS.has(normWord(t));
+    });
+    if (allLookLikeNames) {
+      for (const name of nonConj) {
+        const cap = name[0].toUpperCase() + name.slice(1).toLowerCase();
+        found.add(cap);
+      }
     }
   }
-
-  // 3. Initiale + Nom (ex: "D.Valemor", "D.Silver")
-  const initPlusLast = /(?:^|[^A-Za-zÀ-ÿ])([A-Z])\s*\.\s*([A-ZÀ-Ý][a-zà-ÿ]{2,15})(?=$|[^A-Za-zÀ-ÿ])/g;
-  while ((match = initPlusLast.exec(tailText)) !== null) {
-    if (match[1].toUpperCase() !== 'M') {
-      found.add(`${match[1].toUpperCase()}.${match[2][0].toUpperCase()}`);
-    }
-  }
-
-  // 4. Noms complets récurrents en signature de fin de ligne
-  if (/theo\s+veyren|\|\s*theo\s*$/i.test(lastLine)) found.add('T.V');
-  if (/daesya\s+sangvyr/i.test(lastLine)) found.add('D.S');
-  if (/thalea\s+azharys|thaléa\s+azharys/i.test(lastLine)) found.add('T.A');
-  if (/gary\s+myria/i.test(lastLine)) found.add('G.M');
-  if (/(?:^|[^\w])jack\s+smith(?:$|[^\w])/i.test(lastLine)) found.add('J.S');
 
   return found.size > 0 ? Array.from(found) : ['Non signé'];
 }
@@ -197,7 +261,7 @@ function renderSigBadges(sigs) {
   return sigs.map((s) => {
     const isUnsigned = s === 'Non signé';
     return `<span class="sig-badge ${isUnsigned ? 'sig-unsigned' : ''}">${escapeHtml(s)}</span>`;
-  }).join('');
+  }).join(' ');
 }
 
 // Phrases « certaines » (séparées par |), insensibles à la casse et aux accents
