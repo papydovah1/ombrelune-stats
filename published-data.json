@@ -1,8 +1,8 @@
 {
-  "publishedAt": "2026-11-16T23:17:28.925Z",
+  "publishedAt": "2026-11-16T23:59:48.837Z",
   "minTimestampMs": 1789828546947,
-  "maxTimestampMs": 1794866320612,
-  "totalMessages": 3039,
+  "maxTimestampMs": 1794871394121,
+  "totalMessages": 3050,
   "rules": {
     "company": "banque",
     "allowedCompanies": "Ombrelune | Forge Ostankia | Le Contresort | Providis | Clauser | Banque | Arkana TCG | Cabinet Floravet | Hotel L'Obscurial",
@@ -63616,6 +63616,233 @@
       "allowedCompany": true,
       "aiType": "CLOSE",
       "aiConf": 1
+    },
+    {
+      "id": "1572009761891946548",
+      "timestamp": "2026-11-16T22:05:33.764000+00:00",
+      "timestampMs": 1794866733764,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Daesya Sangvyr",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Daesya Sangvyr \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572011709537845401",
+      "timestamp": "2026-11-16T22:13:18.119000+00:00",
+      "timestampMs": 1794867198119,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\n-- Daesya Sangvyr",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\n-- Daesya Sangvyr \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.98
+    },
+    {
+      "id": "1572016510392869017",
+      "timestamp": "2026-11-16T22:32:22.732000+00:00",
+      "timestampMs": 1794868342732,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\nX.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\nX.M \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1572017281964449933",
+      "timestamp": "2026-11-16T22:35:26.689000+00:00",
+      "timestampMs": 1794868526689,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nR.Z 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nR.Z 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572019557260992552",
+      "timestamp": "2026-11-16T22:44:29.162000+00:00",
+      "timestampMs": 1794869069162,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 Aslan B.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 Aslan B. \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572022044667682947",
+      "timestamp": "2026-11-16T22:54:22.206000+00:00",
+      "timestampMs": 1794869662206,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes est toujours ouverte ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nR.Z 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes est toujours ouverte ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nR.Z 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572023754341621821",
+      "timestamp": "2026-11-16T23:01:09.824000+00:00",
+      "timestampMs": 1794870069824,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\nX.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\nX.M \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1572025051522277488",
+      "timestamp": "2026-11-16T23:06:19.096000+00:00",
+      "timestampMs": 1794870379096,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nR.Z 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nR.Z 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572026870801895435",
+      "timestamp": "2026-11-16T23:13:32.846000+00:00",
+      "timestampMs": 1794870812846,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nR.Z 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nR.Z 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.98
+    },
+    {
+      "id": "1572028632115970108",
+      "timestamp": "2026-11-16T23:20:32.776000+00:00",
+      "timestampMs": 1794871232776,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎  Aslan B.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎  Aslan B. \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.98
+    },
+    {
+      "id": "1572029308845695148",
+      "timestamp": "2026-11-16T23:23:14.121000+00:00",
+      "timestampMs": 1794871394121,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "Elena Celestia Nocturnis est demandée devant le village si disponible.\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n Elena Celestia Nocturnis est demandée devant le village si disponible.\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.98
     }
   ]
 }
