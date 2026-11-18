@@ -1,10 +1,10 @@
 {
-  "publishedAt": "2026-11-16T23:59:53.845Z",
+  "publishedAt": "2026-11-18T02:42:41.356Z",
   "minTimestampMs": 1789828546947,
-  "maxTimestampMs": 1794871394121,
-  "totalMessages": 3050,
+  "maxTimestampMs": 1794966801228,
+  "totalMessages": 3131,
   "rules": {
-    "company": "banque",
+    "company": "forge ostankia",
     "allowedCompanies": "Ombrelune | Forge Ostankia | Le Contresort | Providis | Clauser | Banque | Arkana TCG | Cabinet Floravet | Hotel L'Obscurial",
     "aiConfidencePct": 95,
     "openKeyword": "Ombrelune ouvre ses porte",
@@ -63843,6 +63843,1714 @@
       "allowedCompany": true,
       "aiType": "OTHER",
       "aiConf": 0.98
+    },
+    {
+      "id": "1572042446995718270",
+      "timestamp": "2026-11-17T00:15:26.500000+00:00",
+      "timestampMs": 1794874526500,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\n\n🔥 La Forge Ostenkia invite les citoyens de Rivenguard à partager un apéritif convivial pour cette fin de soirée ! 🥂⚒️\n\nPensez à apporter vos propres boissons et venez profiter de la chaleur de nos fourneaux ! Valerian",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\n\n🔥 La Forge Ostenkia invite les citoyens de Rivenguard à partager un apéritif convivial pour cette fin de soirée ! 🥂⚒️\n\nPensez à apporter vos propres boissons et venez profiter de la chaleur de nos fourneaux ! Valerian \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572046519899783320",
+      "timestamp": "2026-11-17T00:31:37.556000+00:00",
+      "timestampMs": 1794875497556,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ❄️\n\nL’hiver s’est installé à Rivenguard, mais les fourneaux de la Forge Ostenkia brûlent toujours ! 🔥\n\nVenez vous réchauffer autour d’un apéritif convivial pour cette fin de soirée, sans oublier d’apporter vos propres boissons ! 🥂⚒️",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ❄️\n\nL’hiver s’est installé à Rivenguard, mais les fourneaux de la Forge Ostenkia brûlent toujours ! 🔥\n\nVenez vous réchauffer autour d’un apéritif convivial pour cette fin de soirée, sans oublier d’apporter vos propres boissons ! 🥂⚒️ \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572058214067867733",
+      "timestamp": "2026-11-17T01:18:05.663000+00:00",
+      "timestampMs": 1794878285663,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572066142959304778",
+      "timestamp": "2026-11-17T01:49:36.058000+00:00",
+      "timestampMs": 1794880176058,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572266565573943300",
+      "timestamp": "2026-11-17T15:06:00.533000+00:00",
+      "timestampMs": 1794927960533,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572267986327314453",
+      "timestamp": "2026-11-17T15:11:39.267000+00:00",
+      "timestampMs": 1794928299267,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "Plusieurs commandes sont prêtes au Claus’Er !\n\nPensez à venir les récupérer.\n\nE.L.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n Plusieurs commandes sont prêtes au Claus’Er !\n\nPensez à venir les récupérer.\n\nE.L. \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572268173116579931",
+      "timestamp": "2026-11-17T15:12:23.801000+00:00",
+      "timestampMs": 1794928343801,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🔒 L’Hôtel l’Obscurial est temporairement fermé.\n🌙 Nous serons bientôt de retour pour vous accueillir à nouveau.\n✨ Merci pour votre patience et votre fidélité.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🔒 L’Hôtel l’Obscurial est temporairement fermé.\n🌙 Nous serons bientôt de retour pour vous accueillir à nouveau.\n✨ Merci pour votre patience et votre fidélité.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572270975800574144",
+      "timestamp": "2026-11-17T15:23:32.013000+00:00",
+      "timestampMs": 1794929012013,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Daesya & Diane",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Daesya & Diane \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572273360434630860",
+      "timestamp": "2026-11-17T15:33:00.554000+00:00",
+      "timestampMs": 1794929580554,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🏨 L’Hôtel l’Obscurial vous ouvre ses portes.\n🛏️ Chambres élégantes,🍷 bar raffiné et 🎶 ambiance musicale chaleureuse sont à votre disposition afin de vous offrir une expérience unique.\n🌙 Venez profiter d’un moment hors du temps… avant qu’il ne soit trop tard.\n✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572273485529616385",
+      "timestamp": "2026-11-17T15:33:30.379000+00:00",
+      "timestampMs": 1794929610379,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "☕🌿 Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières. A.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n ☕🌿 Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières. A.V \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572275735744487495",
+      "timestamp": "2026-11-17T15:42:26.872000+00:00",
+      "timestampMs": 1794930146872,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "☀️🌿 Les animaux se réveillent, les plantes s'agitent et Floravet' ouvre ses portes en cette nouvelle journée ! Besoin de recenser, soigner, acheter des baumes et des vitamines ou offrir un toilettage pour vos Animaux ? Venez nous voir! 🌸🐾 E.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n ☀️🌿 Les animaux se réveillent, les plantes s'agitent et Floravet' ouvre ses portes en cette nouvelle journée ! Besoin de recenser, soigner, acheter des baumes et des vitamines ou offrir un toilettage pour vos Animaux ? Venez nous voir! 🌸🐾 E.V \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572276744021352459",
+      "timestamp": "2026-11-17T15:46:27.264000+00:00",
+      "timestampMs": 1794930387264,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nOwen Strawn. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nOwen Strawn. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572276949416542300",
+      "timestamp": "2026-11-17T15:47:16.234000+00:00",
+      "timestampMs": 1794930436234,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "Bonjour, \n\nIl y a des couscous/plateaux de fromage à faire si vous souhaitez",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n Bonjour, \n\nIl y a des couscous/plateaux de fromage à faire si vous souhaitez \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572277212344754307",
+      "timestamp": "2026-11-17T15:48:18.921000+00:00",
+      "timestampMs": 1794930498921,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "Merci de ne pas prendre en compte l'annonce précédente.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n Merci de ne pas prendre en compte l'annonce précédente. \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572279574010667100",
+      "timestamp": "2026-11-17T15:57:41.986000+00:00",
+      "timestampMs": 1794931061986,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿A.V E.L",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿A.V E.L \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572281009733369887",
+      "timestamp": "2026-11-17T16:03:24.289000+00:00",
+      "timestampMs": 1794931404289,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "Tatum Veyrand est demandé à Floravet' si disponible. E.V - N.W",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n Tatum Veyrand est demandé à Floravet' si disponible. E.V - N.W \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572281504023974102",
+      "timestamp": "2026-11-17T16:05:22.137000+00:00",
+      "timestampMs": 1794931522137,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Daesya & Diane",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Daesya & Diane \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572282265642467369",
+      "timestamp": "2026-11-17T16:08:23.721000+00:00",
+      "timestampMs": 1794931703721,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nOwen Strawn. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nOwen Strawn. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572283978554020032",
+      "timestamp": "2026-11-17T16:15:12.111000+00:00",
+      "timestampMs": 1794932112111,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons un peu plus tard dans la soirée !\nOwen Strawn. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons un peu plus tard dans la soirée !\nOwen Strawn. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572290223067373680",
+      "timestamp": "2026-11-17T16:40:00.919000+00:00",
+      "timestampMs": 1794933600919,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "📢 Floravet' RECRUTE ! \n 🐾 Tu es adultes ou élèves de A3 et + ? Tu aimes les animaux ? Tu as un attrait pour la médecine magique ? \n 🌿 Envoie ta candidature au : 77382 - Neryon Vale",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n 📢 Floravet' RECRUTE ! \n 🐾 Tu es adultes ou élèves de A3 et + ? Tu aimes les animaux ? Tu as un attrait pour la médecine magique ? \n 🌿 Envoie ta candidature au : 77382 - Neryon Vale \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572290365027786813",
+      "timestamp": "2026-11-17T16:40:34.765000+00:00",
+      "timestampMs": 1794933634765,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "🪹🌹Vos animaux ne sont pas recensés ? Recensement pas renouvelé ? Venez nous voir afin qu'ils aient leur liberté au sein de Rivenguard ! 🌿🐶 E.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n 🪹🌹Vos animaux ne sont pas recensés ? Recensement pas renouvelé ? Venez nous voir afin qu'ils aient leur liberté au sein de Rivenguard ! 🌿🐶 E.V \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572291736275910667",
+      "timestamp": "2026-11-17T16:46:01.696000+00:00",
+      "timestampMs": 1794933961696,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.- -L.L.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.- -L.L.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "forcedForfait": true
+    },
+    {
+      "id": "1572292198408650886",
+      "timestamp": "2026-11-17T16:47:51.877000+00:00",
+      "timestampMs": 1794934071877,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "⚜️ Besoin de nos services ?\n\nLe Claus’Er est ouvert et prêt à vous accueillir. N’hésitez pas à venir nous rencontrer. 🌿E.G",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n ⚜️ Besoin de nos services ?\n\nLe Claus’Er est ouvert et prêt à vous accueillir. N’hésitez pas à venir nous rencontrer. 🌿E.G \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572295204092776553",
+      "timestamp": "2026-11-17T16:59:48.488000+00:00",
+      "timestampMs": 1794934788488,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "Calioppe Corvin est demandée a l'hotel si disponible. E / L-B",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n Calioppe Corvin est demandée a l'hotel si disponible. E / L-B \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572295389145600114",
+      "timestamp": "2026-11-17T17:00:32.608000+00:00",
+      "timestampMs": 1794934832608,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Daesya Sangvyr",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\n-- Daesya Sangvyr \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572298795721429127",
+      "timestamp": "2026-11-17T17:14:04.799000+00:00",
+      "timestampMs": 1794935644799,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nAedan H. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nAedan H. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572300550618489026",
+      "timestamp": "2026-11-17T17:21:03.199000+00:00",
+      "timestampMs": 1794936063199,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "☀️🌿 Floravet' continue de vous acceuillir en cette belle journée ! Besoin de recenser, soigner, acheter des baumes et des vitamines ou offir un toilettage pour vos animaux ? Venez nous voir ! 🌸🐾 E.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n ☀️🌿 Floravet' continue de vous acceuillir en cette belle journée ! Besoin de recenser, soigner, acheter des baumes et des vitamines ou offir un toilettage pour vos animaux ? Venez nous voir ! 🌸🐾 E.V \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572301974206939138",
+      "timestamp": "2026-11-17T17:26:42.609000+00:00",
+      "timestampMs": 1794936402609,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ Ismaël A.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n 🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ Ismaël A. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572302390139428996",
+      "timestamp": "2026-11-17T17:28:21.775000+00:00",
+      "timestampMs": 1794936501775,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nAedan H. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nAedan H. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572303877322313871",
+      "timestamp": "2026-11-17T17:34:16.347000+00:00",
+      "timestampMs": 1794936856347,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons un peu plus tard dans la soirée !\nAedan H. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour le moment ! 🪙\nNous vous retrouverons un peu plus tard dans la soirée !\nAedan H. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572304139386490933",
+      "timestamp": "2026-11-17T17:35:18.828000+00:00",
+      "timestampMs": 1794936918828,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Daesya Sangvyr",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🕯️ Le Contresort s'apprête à tirer le rideau dans quelques minutes ! Dépêchez-vous, il est encore temps de profiter d'une dernière douceur ! 🍪✨\n\n-- Daesya Sangvyr \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572306734486265997",
+      "timestamp": "2026-11-17T17:45:37.548000+00:00",
+      "timestampMs": 1794937537548,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Daesya Sangvyr",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪\n\n-- Daesya Sangvyr \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572310374194094093",
+      "timestamp": "2026-11-17T18:00:05.322000+00:00",
+      "timestampMs": 1794938405322,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h30 ! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥Valerian",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h30 ! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥Valerian \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572312077476036724",
+      "timestamp": "2026-11-17T18:06:51.416000+00:00",
+      "timestampMs": 1794938811416,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir !\n\nM.Vesperis",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir !\n\nM.Vesperis \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572313080707158017",
+      "timestamp": "2026-11-17T18:10:50.605000+00:00",
+      "timestampMs": 1794939050605,
+      "embeds": [
+        {
+          "title": "Cabinet Floravet",
+          "description": "🦥 🌥️Floravet' referme ses portes après cette journée ensoleillé, Pas de panique nous reviendront dans la soirée !🌞🌺 E.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Cabinet Floravet \n 🦥 🌥️Floravet' referme ses portes après cette journée ensoleillé, Pas de panique nous reviendront dans la soirée !🌞🌺 E.V \n Annonce d'entreprise",
+      "companyKey": "cabinet floravet",
+      "companyName": "Cabinet Floravet",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572316566882881646",
+      "timestamp": "2026-11-17T18:24:41.774000+00:00",
+      "timestampMs": 1794939881774,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "☕🌿 Le Claus’Er est désormais fermé.\n\nNotre équipe vous retrouvera très bientôt pour répondre à vos demandes et préparer vos commandes.\n\nBonne soirée à tous. ⚜️A.V Z.D",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n ☕🌿 Le Claus’Er est désormais fermé.\n\nNotre équipe vous retrouvera très bientôt pour répondre à vos demandes et préparer vos commandes.\n\nBonne soirée à tous. ⚜️A.V Z.D \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572321874199707709",
+      "timestamp": "2026-11-17T18:45:47.137000+00:00",
+      "timestampMs": 1794941147137,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572323457214054542",
+      "timestamp": "2026-11-17T18:52:04.557000+00:00",
+      "timestampMs": 1794941524557,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "Vos commandes sont prêtes et vous attendent au Claus’Er. 🌿\n\n⚜️ John Noctwell, Emy Kaori\n\nPensez à venir récupérer vos commandes au Claus’Er. 📦🌿",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n Vos commandes sont prêtes et vous attendent au Claus’Er. 🌿\n\n⚜️ John Noctwell, Emy Kaori\n\nPensez à venir récupérer vos commandes au Claus’Er. 📦🌿 \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572324565286125649",
+      "timestamp": "2026-11-17T18:56:28.742000+00:00",
+      "timestampMs": 1794941788742,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\nM.O",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🪄 Les cuillères s'agitent, les épices frétillent et quelques étincelles s'échappent déjà des cuisines… Il semblerait que le Contresort ouvre et que notre serveur ait quelque chose à vous concocter ! 🍯✨\n\nM.O \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572326488588419262",
+      "timestamp": "2026-11-17T19:04:07.293000+00:00",
+      "timestampMs": 1794942247293,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h30 ! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥Valerian",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h30 ! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥Valerian \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572328730767003910",
+      "timestamp": "2026-11-17T19:13:01.870000+00:00",
+      "timestampMs": 1794942781870,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "Providis est disponible d'ici 5min, en cours de livraison.  MDV",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n Providis est disponible d'ici 5min, en cours de livraison.  MDV \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OPEN",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1572329824767189024",
+      "timestamp": "2026-11-17T19:17:22.700000+00:00",
+      "timestampMs": 1794943042700,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nT.V. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque refermera ses portes dans 5min, profitez en avant qu'il ne soit trop tard ! 🪙\nT.V. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "WARN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572330331355218121",
+      "timestamp": "2026-11-17T19:19:23.480000+00:00",
+      "timestampMs": 1794943163480,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nDrago S, Zara D.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿\nDrago S, Zara D. \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572331213547507783",
+      "timestamp": "2026-11-17T19:22:53.811000+00:00",
+      "timestampMs": 1794943373811,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nT.V.. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nT.V.. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572331627823235256",
+      "timestamp": "2026-11-17T19:24:32.582000+00:00",
+      "timestampMs": 1794943472582,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪 M.O",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🧹 Les comptoirs retrouvent leur calme, les dernières miettes disparaissent comme par magie… Le Contresort prend une petite pause avant de reprendre ses enchantements ! ✨🍪 M.O \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572332108750389414",
+      "timestamp": "2026-11-17T19:26:27.244000+00:00",
+      "timestampMs": 1794943587244,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h 30! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥♡ Valerian",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\n\nLa Forge Ostenkia invite tous les adultes disponibles à la rejoindre pour une séance de sport à 20h 30! 💪⚒️\n\nVenez vous dépasser et partager un moment sportif dans la bonne humeur ! 🔥♡ Valerian \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572344580211351575",
+      "timestamp": "2026-11-17T20:16:00.672000+00:00",
+      "timestampMs": 1794946560672,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir ! - A.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 PROVIDIS EST OUVERT ! 📢\n\nNous vous attendons pour tout rachat de vos caisses et de vos ressources.\n\n📦 Venez nous voir chez Providis, nous serons ravis de vous accueillir ! - A.V. \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572350116474519655",
+      "timestamp": "2026-11-17T20:38:00.620000+00:00",
+      "timestampMs": 1794947880620,
+      "embeds": [
+        {
+          "title": "Providis",
+          "description": "📢 PROVIDIS FERME SES PORTES ! 📢\n\nMerci à toutes et à tous d'être venus nous rendre visite aujourd'hui !\n\n📦 Providis est désormais fermé. Nous vous retrouverons très bientôt ! - A.V.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Providis \n 📢 PROVIDIS FERME SES PORTES ! 📢\n\nMerci à toutes et à tous d'être venus nous rendre visite aujourd'hui !\n\n📦 Providis est désormais fermé. Nous vous retrouverons très bientôt ! - A.V. \n Annonce d'entreprise",
+      "companyKey": "providis",
+      "companyName": "Providis",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572365037484646491",
+      "timestamp": "2026-11-17T21:37:18.066000+00:00",
+      "timestampMs": 1794951438066,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🔮 La nuit promet quelques merveilles, et certaines ne se trouvent dans aucun grimoire… Prenez place au Contresort, votre prochaine découverte se cache peut-être au fond de votre assiette ! 🍷🕯️\n\nV.S",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🔮 La nuit promet quelques merveilles, et certaines ne se trouvent dans aucun grimoire… Prenez place au Contresort, votre prochaine découverte se cache peut-être au fond de votre assiette ! 🍷🕯️\n\nV.S \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "OTHER",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1572367973472018432",
+      "timestamp": "2026-11-17T21:48:58.060000+00:00",
+      "timestampMs": 1794952138060,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Arkana TCG ouvrira ses portes dès 18h pour vous accueillir durant la pleine lune !\n\nBesoin d'un refuge pour passer ce moment en sécurité ? Vous êtes tous les bienvenus !\n\nOUVERTURE ANTICIPÉE À 14H RÉSERVÉE À LA GARDE ET AU MINISTÈRE !",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Arkana TCG ouvrira ses portes dès 18h pour vous accueillir durant la pleine lune !\n\nBesoin d'un refuge pour passer ce moment en sécurité ? Vous êtes tous les bienvenus !\n\nOUVERTURE ANTICIPÉE À 14H RÉSERVÉE À LA GARDE ET AU MINISTÈRE ! \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572369913660833894",
+      "timestamp": "2026-11-17T21:56:40.637000+00:00",
+      "timestampMs": 1794952600637,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Arkana TCG ouvrira ses portes dès 18h pour vous accueillir durant la pleine lune !\n\nBesoin d'un refuge pour passer ce moment en sécurité ? Vous êtes tous les bienvenus !\n\nOUVERTURE ANTICIPÉE À 14H RÉSERVÉE À LA GARDE ET AU MINISTÈRE !",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Arkana TCG ouvrira ses portes dès 18h pour vous accueillir durant la pleine lune !\n\nBesoin d'un refuge pour passer ce moment en sécurité ? Vous êtes tous les bienvenus !\n\nOUVERTURE ANTICIPÉE À 14H RÉSERVÉE À LA GARDE ET AU MINISTÈRE ! \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572370767172079708",
+      "timestamp": "2026-11-17T22:00:04.130000+00:00",
+      "timestampMs": 1794952804130,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OPEN",
+      "aiType": "OTHER",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1572372548774273185",
+      "timestamp": "2026-11-17T22:07:08.897000+00:00",
+      "timestampMs": 1794953228897,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "🌕 Les créatures de la nuit sont de sortie et les mystères s'éveillent. Que vous soyez en quête de compagnie, de sécurité ou d'un bon repas, le Contresort vous réserve une halte bien à l'abri. ✨🍲\n\n-- V.S / D.S",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 🌕 Les créatures de la nuit sont de sortie et les mystères s'éveillent. Que vous soyez en quête de compagnie, de sécurité ou d'un bon repas, le Contresort vous réserve une halte bien à l'abri. ✨🍲\n\n-- V.S / D.S \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "OTHER",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1572373353828982785",
+      "timestamp": "2026-11-17T22:10:20.837000+00:00",
+      "timestampMs": 1794953420837,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "\"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ E / L-B\"",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n \"🌕 À l’occasion de la pleine lune, l’Hôtel l’Obscurial vous accueille chaleureusement.\n🍷 Venez vous abriter autour d’un verre ou 🍽️ savourer un repas dans une ambiance calme, élégante et mystérieuse. ✒️ E / L-B\" \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "OTHER",
+      "aiConf": 0.8
+    },
+    {
+      "id": "1572373882118078527",
+      "timestamp": "2026-11-17T22:12:26.791000+00:00",
+      "timestampMs": 1794953546791,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 O.E",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 O.E \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572374356343132171",
+      "timestamp": "2026-11-17T22:14:19.855000+00:00",
+      "timestampMs": 1794953659855,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "La banque seras aussi presente a la boutique pendant la pleine lune. K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n La banque seras aussi presente a la boutique pendant la pleine lune. K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "userType": "OTHER",
+      "aiType": "OTHER",
+      "aiConf": 0.9
+    },
+    {
+      "id": "1572380630120014047",
+      "timestamp": "2026-11-17T22:39:15.640000+00:00",
+      "timestampMs": 1794955155640,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\nV.S",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\nV.S \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572380649598357666",
+      "timestamp": "2026-11-17T22:39:20.284000+00:00",
+      "timestampMs": 1794955160284,
+      "embeds": [
+        {
+          "title": "Le Contresort",
+          "description": "💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\n-- V.S / D.S",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Le Contresort \n 💤 Même les meilleurs enchanteurs ont besoin de repos ! Les casseroles sont rangées, les grimoires refermés et les fourneaux mis sous scellés jusqu'à nouvel ordre. 🌙🔒\n\n-- V.S / D.S \n Annonce d'entreprise",
+      "companyKey": "le contresort",
+      "companyName": "Le Contresort",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572382712025718866",
+      "timestamp": "2026-11-17T22:47:32.005000+00:00",
+      "timestampMs": 1794955652005,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ Ismaël A.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n 🕯️ Les lumières de l’Hôtel l’Obscurial s’éteignent peu à peu…\n🌙 Les portes ferment pour cette nuit, jusqu’à ce que la lune nous permette de vous accueillir à nouveau.\n⏳ Prenez garde aux ombres jusqu’à votre prochain passage parmi nous.\n✒️ Ismaël A. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
+    },
+    {
+      "id": "1572383394522865726",
+      "timestamp": "2026-11-17T22:50:14.725000+00:00",
+      "timestampMs": 1794955814725,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nPour le moment seul les cercle 4 & 5 peuvent venir pour échanger et par la suite tout les cercle !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙 \nPour le moment seul les cercle 4 & 5 peuvent venir pour échanger et par la suite tout les cercle !\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572383960565162068",
+      "timestamp": "2026-11-17T22:52:29.680000+00:00",
+      "timestampMs": 1794955949680,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 T.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎 T.V \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572385327627378702",
+      "timestamp": "2026-11-17T22:57:55.613000+00:00",
+      "timestampMs": 1794956275613,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V.. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes vous ouvre ses portes ! 🪙\nVenez échanger vos pièces, effectuer vos renouvellements ou tenter votre chance avec nos tickets à gratter !\nT.V.. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572386009922936883",
+      "timestamp": "2026-11-17T23:00:38.285000+00:00",
+      "timestampMs": 1794956438285,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Kaito Rei et Maelor Thalasseon sont attendus à la Forge Ostenkia si  disponibles.\nGary Myria.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Kaito Rei et Maelor Thalasseon sont attendus à la Forge Ostenkia si  disponibles.\nGary Myria. \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572386141678731347",
+      "timestamp": "2026-11-17T23:01:09.698000+00:00",
+      "timestampMs": 1794956469698,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "kaito et pas disponible lian.rei",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n kaito et pas disponible lian.rei \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572393574379683942",
+      "timestamp": "2026-11-17T23:30:41.792000+00:00",
+      "timestampMs": 1794958241792,
+      "embeds": [
+        {
+          "title": "Banque",
+          "description": "🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nT.V. 💫",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Banque \n 🪙 La Banque des Arcanes referme ses portes pour ce soir ! 🪙\nNous vous retrouverons demain et vous souhaitons une bonne nuit ! 🌙\nT.V. 💫 \n Annonce d'entreprise",
+      "companyKey": "banque",
+      "companyName": "Banque",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572394831504744531",
+      "timestamp": "2026-11-17T23:35:41.514000+00:00",
+      "timestampMs": 1794958541514,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Kairos Anokha est demander a la boutique. K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Kairos Anokha est demander a la boutique. K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572395072752980150",
+      "timestamp": "2026-11-17T23:36:39.032000+00:00",
+      "timestampMs": 1794958599032,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "Gary est demandé a la forge",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n Gary est demandé a la forge \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572397286737322058",
+      "timestamp": "2026-11-17T23:45:26.887000+00:00",
+      "timestampMs": 1794959126887,
+      "embeds": [
+        {
+          "title": "Hotel L'Obscurial",
+          "description": "Calioppe Corvin, Scott BlackLupus, Vak Snow, Iris Valombre, Kael Smith, Melhia Olyona sont demandé à l'hôtel. S.D'G.",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Hotel L'Obscurial \n Calioppe Corvin, Scott BlackLupus, Vak Snow, Iris Valombre, Kael Smith, Melhia Olyona sont demandé à l'hôtel. S.D'G. \n Annonce d'entreprise",
+      "companyKey": "hotel l'obscurial",
+      "companyName": "Hotel L'Obscurial",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572401033869664321",
+      "timestamp": "2026-11-18T00:00:20.273000+00:00",
+      "timestampMs": 1794960020273,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune ouvre ses portes ! ✨\nTout y est, boite magique, ticket à gratter, lettres, balai...\nVenez profiter de tous nos produits avant qu'il ne soit trop tard !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1572404995201044563",
+      "timestamp": "2026-11-18T00:16:04.728000+00:00",
+      "timestampMs": 1794960964728,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "Monarko Letto est demandé à l'Ombrelune si disponible.\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n Monarko Letto est demandé à l'Ombrelune si disponible.\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572406310287188021",
+      "timestamp": "2026-11-18T00:21:18.269000+00:00",
+      "timestampMs": 1794961278269,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572408845756665997",
+      "timestamp": "2026-11-18T00:31:22.772000+00:00",
+      "timestampMs": 1794961882772,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Bonsoir ✨\nLes fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\nteagane tao",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Bonsoir ✨\nLes fourneaux s’éveillent et les runes vibrent de puissance, la Forge Ostenkia ouvre ses portes ! ⚒️Nous sommes disponibles pour toutes commandes, révision et retrait ! 🔥\nteagane tao \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572409655932485653",
+      "timestamp": "2026-11-18T00:34:35.933000+00:00",
+      "timestampMs": 1794962075933,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG sont ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572414478035722442",
+      "timestamp": "2026-11-18T00:53:45.612000+00:00",
+      "timestampMs": 1794963225612,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌙 L’Ombrelune continue de vous accueillir ! ✨\nBaguette, boombox, boite magique, lettres et plus encore, venez découvrir tous nos produits !\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572414604007440518",
+      "timestamp": "2026-11-18T00:54:15.646000+00:00",
+      "timestampMs": 1794963255646,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG sont toujours ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG sont toujours ouvertes !\n\nEnvie de tenter votre chance ? Venez découvrir nos boosters, compléter votre collection et peut-être repartir avec la carte qu’il vous manquait.\n\nOn vous attend chez Arkana TCG !\n\nSmall Creatures • Big Dreams K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "OTHER",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572416031660580935",
+      "timestamp": "2026-11-18T00:59:56.025000+00:00",
+      "timestampMs": 1794963596025,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "⚠️ La Forge Ostankia est ouverte et vous rappelle : Il est primordial de faire réviser vos artefacts 📜, Dans le cas contraire, des dysfonctionnements pouvant mettre votre vie en danger surviendront ! 🔥G.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n ⚠️ La Forge Ostankia est ouverte et vous rappelle : Il est primordial de faire réviser vos artefacts 📜, Dans le cas contraire, des dysfonctionnements pouvant mettre votre vie en danger surviendront ! 🔥G.M \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 0.95
+    },
+    {
+      "id": "1572417523302006926",
+      "timestamp": "2026-11-18T01:05:51.660000+00:00",
+      "timestampMs": 1794963951660,
+      "embeds": [
+        {
+          "title": "Arkana TCG",
+          "description": "Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Arkana TCG \n Les portes d’Arkana TCG se ferment pour aujourd’hui !\n\nMerci à toutes les personnes qui sont venues nous rendre visite et tenter leur chance avec nos boosters.\n\nOn se retrouve très bientôt chez Arkana TCG !\n\nSmall Creatures • Big Dreams 🦎K.N \n Annonce d'entreprise",
+      "companyKey": "arkana tcg",
+      "companyName": "Arkana TCG",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572417896641200331",
+      "timestamp": "2026-11-18T01:07:20.671000+00:00",
+      "timestampMs": 1794964040671,
+      "embeds": [
+        {
+          "title": "Ombrelune",
+          "description": "🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\n-E.M.-",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Ombrelune \n 🌒 Les portes de L’Ombrelune se referment… ✨\nLes baguettes ont trouvé leurs mains, les balais leurs cavaliers.\nMerci à tous nos voyageurs d’avoir saisi leurs trésors enchantés avant que la magie ne s’éclipse. \nA la prochaine\n-E.M.- \n Annonce d'entreprise",
+      "companyKey": "ombrelune",
+      "companyName": "Ombrelune",
+      "allowedCompany": true
+    },
+    {
+      "id": "1572420889977298955",
+      "timestamp": "2026-11-18T01:19:14.338000+00:00",
+      "timestampMs": 1794964754338,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "☕🌿 Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières. A.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n ☕🌿 Le Claus’Er est ouvert !\n\nNotre équipe vous accueille avec plaisir pour toutes vos commandes et demandes particulières. A.V \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "OPEN",
+      "aiConf": 1
+    },
+    {
+      "id": "1572426507370893313",
+      "timestamp": "2026-11-18T01:41:33.629000+00:00",
+      "timestampMs": 1794966093629,
+      "embeds": [
+        {
+          "title": "Forge Ostankia",
+          "description": "Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥G.M",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Forge Ostankia \n Le feu s’éteint et le métal se repose, la Forge Ostankia ferme ses portes. Nous vous tiendrons informé de la prochaine réouverture ! 🔥G.M \n Annonce d'entreprise",
+      "companyKey": "forge ostankia",
+      "companyName": "Forge Ostankia",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 0.99
+    },
+    {
+      "id": "1572429475256471643",
+      "timestamp": "2026-11-18T01:53:21.228000+00:00",
+      "timestampMs": 1794966801228,
+      "embeds": [
+        {
+          "title": "Clauser",
+          "description": "🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿 A.V",
+          "fields": [],
+          "footer": {
+            "text": "Annonce d'entreprise"
+          }
+        }
+      ],
+      "fullText": "Clauser \n 🌙 Le Claus’Er ferme ses portes pour aujourd’hui.\n\nNous vous remercions pour votre confiance et vous souhaitons une excellente soirée. ⚜️🌿 A.V \n Annonce d'entreprise",
+      "companyKey": "clauser",
+      "companyName": "Clauser",
+      "allowedCompany": true,
+      "aiType": "CLOSE",
+      "aiConf": 1
     }
   ]
 }
